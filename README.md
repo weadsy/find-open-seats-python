@@ -21,7 +21,7 @@ How to run on Raspberry Pi:
 
 8) pip install requests (install request library)
 
-9) tmux (optional, if you want the script to keep running after you disconnect from ssh. Can also use 'screen')
+9) tmux (optional, start a tmux session if you want the script to keep running after you disconnect from ssh. Can also use 'screen')
 
 10) python check_classes.py (run the script)
 
