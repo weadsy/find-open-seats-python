@@ -3,7 +3,7 @@ Check every 10 minutes if a seat opened up in classes of your choosing using API
 
 How to run on Raspberry Pi:
 
-1) ssh <user>@<ip> (connect to the pi, use 'ping raspberrypi.local' to find the ip)
+1) ssh /<user/>@/<ip/> (connect to the pi, use 'ping raspberrypi.local' to find the ip)
 
 2) python3 --version (make sure python is configured)
 	- sudo apt update (if not configured)
