@@ -25,4 +25,5 @@ How to run on Raspberry Pi:
 9) python check_classes.py (run the script)
 
 tmux attach -t 0 (reattach to the session, use 'tmux ls' to see running sessions).
+
 tmux kill-session -t 0 (end the session)
