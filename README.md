@@ -6,23 +6,24 @@ How to run on Raspberry Pi:
 1) ssh \<user\>@\<ip\> (connect to the pi, use 'ping raspberrypi.local' to find the ip)
 
 2) python3 --version (make sure python is configured)
-	- sudo apt update (if not configured)
+   	- (if not configured)
+	- sudo apt update
 	- sudo apt install python3
 	- sudo apt install python3-pip
 
-3) git clone https://github.com/weadsy/find-open-seats-python.git (clone the repo)
+4) git clone https://github.com/weadsy/find-open-seats-python.git (clone the repo)
 
-4) cd find-open-seats-python (enter the repo)
+5) cd find-open-seats-python (enter the repo)
 
-5) python3 -m venv venv (create virtual environment)
+6) python3 -m venv venv (create virtual environment)
 
-6) source venv/bin/activate (activate virtual environment)
+7) source venv/bin/activate (activate virtual environment)
 
-7) pip install requests (install request library)
+8) pip install requests (install request library)
 
-8) tmux (optional, if you want the script to keep running after you disconnect from ssh. Can also use 'screen')
+9) tmux (optional, if you want the script to keep running after you disconnect from ssh. Can also use 'screen')
 
-9) python check_classes.py (run the script)
+10) python check_classes.py (run the script)
 
 tmux attach -t 0 (reattach to the session, use 'tmux ls' to see running sessions).
 
